@@ -1,0 +1,27 @@
+* {
+    font-size: 25px;
+}
+/* Root 25 */
+
+h1 {
+    font-size: 4.8em
+} 
+/* Multipliquei 25 (que é o root) por 4.8 que deu 120 */
+
+ol {
+    list-style: none;
+    font-size: 2rem;
+}
+/* Mutipliquei o root por 2 */
+
+li {
+    font-size: 3em;
+}
+/* Multipliquei o tamanho do ol (50) por 3, dando 150, assim o triplo dele */
+
+
+p {
+    font-size: 0.6rem;
+}
+/*Multipliquei o root (25) por 0.6 dando 15.
+Eu sei que só era colocar 15px porque não tinha nenhuma regra masssss queria fazer a conta */

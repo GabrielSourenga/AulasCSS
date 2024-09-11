@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+body {
+    background-color: bisque;
+    font-family:"Sofadi One";
+}
+
+h1 {
+    color: #F28705;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -5px 5px 10px #732C02 ;
+    line-height: 200%;
+}
+
+.informacao {
+    color: #F0F0F2;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.site {
+    font-style: italic;
+    text-align: right;
+    color: black ;
+    line-height: 300%;
+    font-size: 25px;
+}
+
+h2.atencao {
+    color: #F2B705;
+    font-size: 35px;
+    line-height: 200%;
+}
+
+.txt {
+    background-color: #BF4904;
+    margin: auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    padding: 40px;
+}
+

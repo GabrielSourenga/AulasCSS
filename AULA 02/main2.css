@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+    background-color: #D9BB96;
+    text-align: center;
+
+}
+
+h1 {
+    color: #D9644A;
+    font-family: "Nerko One";
+    font-size: 70px;
+    letter-spacing: 50px;
+}
+
+p {
+    font-size: 50px ;
+    color: #D9644A;
+    font-family: "Nerko One";
+}

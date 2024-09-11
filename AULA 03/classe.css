@@ -1,0 +1,13 @@
+p {
+    color: purple;
+    font-family: cursive;
+
+}
+
+.agradecimento {
+    color: orange;
+    font-style: italic;
+    text-align: right; 
+    padding: 25px;
+    font-family: none;
+}
