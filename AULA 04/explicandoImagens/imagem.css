@@ -1,0 +1,6 @@
+body {
+    background-image: url(./Campo\ 8-bit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*     background-repeat: no-repeat; para a imagem não repitir na tela */
+}
