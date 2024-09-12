@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+body {
+    background-color:#2B1C8C;
+}
+
+p {
+    font-family:"Fascinate Inline";
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#azul {
+    color:#51A6A6;
+}
+
+#vermelho {
+    color: #A61103;
+}
+
+.loonetoons {
+    font-family:"Playwrite CU" ;
+    color: #FFAA10;
+    text-shadow: -10px 5px 8px #FFAA10 ;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+}
