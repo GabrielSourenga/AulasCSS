@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+}
+
+body {
+    color: #483F44;
+}
+
+.box1 {
+    background-color: #90383E;
+    width: 250px;
+    height: 250px;
+}
+
+.box2 {
+    background-color:#304676;
+    background-image: url(./Fundo\ de\ Tela.jpg);
+    background-size: cover;
+    color: #B99B91;
+    width: 50vw;
+    height: 50vh;
+}
+
+.box3 {
+    background-color: #E6B467;
+    width: 50vw;
+    height: 25vh;
+}

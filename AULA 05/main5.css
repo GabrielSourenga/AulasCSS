@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #304676;
+}
+
+h1 {
+    color: #90383E;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #E6B467;
+    font-size: 30px;
+}
+
+.margin {
+    padding: 30px 30px 20px 50px ;
+
+}
+
+.padding {
+    margin: 30px 30px 20px 50px;
+    padding: 15px 20px 25px 30px ;
+}

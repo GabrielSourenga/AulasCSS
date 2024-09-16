@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+.box1  {
+    border-top: dashed 5px darkred;
+    border-left: solid 5px darkred;
+    border-right: solid 5px darkred;
+    border-bottom: solid 10px darkred;
+    background-color: #353333;
+    max-width: 700px;
+    color: white;
+    padding: 20px 0px 30px 20px;
+    margin: 20px;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box2 {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    margin-left: 25px;
+    margin-top: -5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
