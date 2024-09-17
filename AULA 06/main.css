@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: solid 3px #48B0ED ;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+
+#energia {
+    border: solid 3px #7404BF ;
+    border-radius: 10px;
+    float: right;
+}
+
+#conhecimento {
+
+    border: solid 3px goldenrod;
+    border-radius: 10px;
+    float: left;
+}
+
+.p2 {
+    clear: right;
+}

@@ -1,0 +1,20 @@
+div {
+    height: 250px;
+    width: 250px;
+    border: dotted 3px goldenrod;
+    margin: 0.5em;
+}
+
+.box1 {
+    box-sizing: content-box ;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px blueviolet ;
+}
+
+.box2 {
+    box-sizing: border-box ;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px darkorange  ;
+}

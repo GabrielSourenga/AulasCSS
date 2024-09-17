@@ -1,0 +1,23 @@
+
+
+section {
+    border: solid 3px #054f05;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+div {
+    margin: 10px;
+    width: 25vw;
+}
+
+.primeiro {
+    float: left;
+}
+
+.segundo {
+    float: right;
+}
+
+
