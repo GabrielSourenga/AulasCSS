@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62. 5%;
+}
+
+p.raposa:before {
+    content: "O melhor ladrão de Inãs ";
+}
+
+h3::after {
+    content: " 👁‍🗨";
+}
+
+/* SEMPRE QUE FOR COLOCOAR O PSEUDOELEMENTO TEM QUE COLOCAR 2 : E O CONTENT EM " */
