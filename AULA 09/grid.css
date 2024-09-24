@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62. 5%;
+}
+
+.container {
+    background-color: purple;
+    margin: 25px auto ;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: row  ;
+    direction: ltr;
+    justify-content: flex-start ;
+    flex-wrap: wrap-reverse;
+    /* align-items: center;  */
+}
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid 3px;
+    margin: 10px;
+}
+
+.delta {
+    background-color: red;
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1 */
+}
+
+.alpha {
+    background-color: green;
+    /* order: 3;     */
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+}
+
+.omega {
+    background-color: yellow;
+    /* order: 1; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 4; */
+}
+
+/* flex-basis  
+A propriedade flex-basis define o tamanho padrão de um elemento antes do espaço restante 
+seja distribuído. Pode ser um tamanho (ex. 20%, 5rem, etc) ou uma keyword. A keyword auto 
+significa “verifique a minha propriedade width e height”. A keyword content significa 
+“dimensionar com base no conteúdo do item”. Existem outras Keywords que não iremos abordar 
+para o conteúdo não ficar muito extenso.  */
+
+/* align-self 
+A propriedade align-self permite que o alinhamento padrão (ou aquele especificado por align
+itens) seja substituído nos itens flex individualmente.  */
