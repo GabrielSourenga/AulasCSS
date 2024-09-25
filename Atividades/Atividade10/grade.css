@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0pc;
+}
+
+.container {
+    width: 1500px;
+    height: 1000px;
+    margin: 25px auto;
+    border: solid 3px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:  repeat(5, 200px);
+    grid-template-areas: 
+    "pao pao pao pao pao"
+    "baguete frances frances frances queijo"
+    "baguete frances frances frances queijo"
+    "leite leite forma forma forma"
+    "integral integral integral integral integral "
+    ;
+}
+
+.box {
+    border: dotted 1px;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.box1 {
+    background-color: yellowgreen;
+    grid-area: pao;
+}
+
+.box2 {
+    background-color: indianred;
+    grid-area: baguete;
+}
+
+.box3 {
+    background-color: cadetblue;
+    grid-area: frances;
+
+}
+
+.box4 {
+    background-color: rgb(167, 70, 34);
+    grid-area: queijo;
+
+}
+
+.box5 {
+    background-color: rgb(86, 86, 222);
+    grid-area: leite;
+
+}
+
+.box6 {
+    background-color: rgb(211, 146, 228);
+    grid-area: forma;
+
+}
+
+.box7 {
+    background-color: darkgreen;
+    grid-area: integral;
+
+}
