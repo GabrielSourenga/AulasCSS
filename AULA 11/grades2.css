@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 62. 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#geladeira {
+    border: solid 3px;
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "box1 box1 box1"
+    "box2 box2 box2 "
+    "box3 box3 box3"
+    ;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+.box {
+    border: dotted 1px lightskyblue;
+}
+
+.box1 {
+    background-color: coral;
+    grid-area: box1;
+}
+
+.box2 {
+    background-color: crimson;
+    grid-area: box2;
+}
+
+.box3 {
+    background-color: deeppink;
+    grid-area: box3;
+}
