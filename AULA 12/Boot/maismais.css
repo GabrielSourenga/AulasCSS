@@ -1,0 +1,22 @@
+body {
+    background-image: url(./Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+h1 {
+    font-family: cursive;   
+    color: #D4D948;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: cursive;
+    text-align: center  ;
+}

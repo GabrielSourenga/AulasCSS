@@ -1,0 +1,14 @@
+
+.botao {
+    text-decoration: none;
+    border: solid 3px #D4D948;
+    background-color: #D4D948;
+    border-radius: 5px;
+    margin: 20px;
+    color: #F20530 ;
+    font-size: 18px;
+}
+
+img {
+    height: 40vh;
+}
